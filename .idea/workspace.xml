@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f3c63c-89f5-4074-8303-10e965effb13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MouseClickTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/MExercises.iml" afterPath="$PROJECT_DIR$/MExercises.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java" afterPath="$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java" afterPath="$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChromeDriverTestTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ChromeDriverTestTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChromeDriverTestTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChromeDriverTestTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="274">
+              <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FireFoxDriverTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FireFoxDriverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="200">
+              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +89,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>C:\Users\James\IdeaProjects\MExercises\src\test\java</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,9 +114,11 @@
         <option value="$PROJECT_DIR$/src/test/java/testingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChromeDriverTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MouseClickTestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MouseClickTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java" />
       </list>
     </option>
   </component>
@@ -215,27 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Unnamed">
-    <configuration name="TestingTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MExercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestingTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ChromeDriverTestTest.Selectable">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -257,15 +234,75 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ChromeDriverTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChromeDriverTestTest.Selectable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MExercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ChromeDriverTestTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="Selectable" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ChromeDriverTestTest.droppableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MExercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChromeDriverTestTest" />
+      <option name="METHOD_NAME" value="droppableTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ChromeDriverTestTest.sizeable1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MExercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChromeDriverTestTest" />
+      <option name="METHOD_NAME" value="sizeable1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ChromeDriverTestTest.testGoogleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MExercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChromeDriverTestTest" />
+      <option name="METHOD_NAME" value="testGoogleSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -384,17 +421,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Android JUnit.TestingTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FireFoxDriverTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FireFoxDriverTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.testGoogleSearch" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.droppableTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sizeable1" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.Selectable" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FireFoxDriverTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest" />
-        <item index="2" class="java.lang.String" itemvalue="Android JUnit.TestingTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.Selectable" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sizeable1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.droppableTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.testGoogleSearch" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FireFoxDriverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -447,39 +488,46 @@
       <option name="project" value="LOCAL" />
       <updated>1515585252751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="elliots code working">
+      <created>1515593786511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515593786511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 10h 33m 58s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 02m 53s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 10h 34m 55s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 05m 42s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 10h 36m 25s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 07m 56s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 10h 40m 21s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 13m 18s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 10h 42m 15s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 16m 29s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 10h 51m 16s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 17m 58s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 11h 52m 24s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 18m 44s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FireFoxDriverTest - 2018.01.10 at 14h 05m 34s.xml">
-      <configuration name="FireFoxDriverTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 19m 55s.xml">
+      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.01.10 at 14h 10m 57s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="ChromeDriverTestTest_droppableTest - 2018.01.10 at 16h 52m 48s.xml">
+      <configuration name="ChromeDriverTestTest.droppableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.01.10 at 14h 13m 41s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="ChromeDriverTestTest_sizeable1 - 2018.01.10 at 16h 53m 27s.xml">
+      <configuration name="ChromeDriverTestTest.sizeable1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -500,6 +548,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -511,7 +560,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -522,7 +570,8 @@
     <MESSAGE value="update2" />
     <MESSAGE value="update fire fox" />
     <MESSAGE value="update fire fox2" />
-    <option name="LAST_COMMIT_MESSAGE" value="update fire fox2" />
+    <MESSAGE value="elliots code working" />
+    <option name="LAST_COMMIT_MESSAGE" value="elliots code working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -692,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -708,20 +749,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="200">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MouseClickTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="75" column="8" lean-forward="false" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MouseClickTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

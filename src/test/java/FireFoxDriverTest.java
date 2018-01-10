@@ -10,8 +10,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -31,17 +31,18 @@ public class FireFoxDriverTest {
 
         System.setProperty("webdriver.gecko.driver", "C:/Users/James/Desktop/QA_Software/FireFoxDriver/geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.get("https://uk.yahoo.com/");
-        Thread.sleep(4000);
+        driver.get("http://demoqa.com/");
+        Thread.sleep(2000);
         //WebElement search = driver.findElement(By.name("q"));
         //search.sendKeys("superman");
+        // MOUSE CLICKS
 
 
         // pass scenario
     }
 
 
-        @Test(priority = 1, enabled = true)
+          @Test(priority = 1, enabled = true)
         public void verifyHomePageTitle() {
 
             // where to create the report file
@@ -72,14 +73,6 @@ public class FireFoxDriverTest {
             driver.quit();
         }
 
-
-
-
-
-
-
-
-
-    }
+}
 
 
