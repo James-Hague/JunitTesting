@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f3c63c-89f5-4074-8303-10e965effb13" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MouseClickTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChromeDriverTest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java" afterPath="$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java" afterPath="$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ChromeDriverTestTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ChromeDriverTestTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MouseClickTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runtests.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestingTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="296">
               <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="e#187#188#0" expanded="true" />
@@ -50,21 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChromeDriverTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChromeDriverTestTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChromeDriverTestTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+            <state relative-caret-position="224">
+              <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +65,7 @@
       <file leaf-file-name="FireFoxDriverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="228">
               <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -212,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChromeDriverTestTest.Selectable">
+  <component name="RunManager" selected="JUnit.ChromeDriverTestTest.sortable">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -294,14 +284,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ChromeDriverTestTest.testGoogleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChromeDriverTestTest.sortable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MExercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ChromeDriverTestTest" />
-      <option name="METHOD_NAME" value="testGoogleSearch" />
+      <option name="METHOD_NAME" value="sortable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -314,15 +304,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FireFoxDriverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChromeDriverTestTest.testGoogleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MExercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FireFoxDriverTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ChromeDriverTestTest" />
+      <option name="METHOD_NAME" value="testGoogleSearch" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -423,19 +413,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TestNG.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FireFoxDriverTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.testGoogleSearch" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.droppableTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sizeable1" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.Selectable" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.testGoogleSearch" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.droppableTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sizeable1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.Selectable" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sortable" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.Selectable" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sizeable1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.droppableTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.testGoogleSearch" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FireFoxDriverTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sortable" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.Selectable" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.sizeable1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.droppableTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ChromeDriverTestTest.testGoogleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -495,54 +485,61 @@
       <option name="project" value="LOCAL" />
       <updated>1515593786511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="selection done">
+      <created>1515604960928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515604960928</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 02m 53s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 43m 15s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 05m 42s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 44m 33s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 07m 56s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 45m 08s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 13m 18s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 46m 29s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 16m 29s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 47m 30s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 17m 58s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 51m 23s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 18m 44s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 57m 11s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_Selectable - 2018.01.10 at 17h 19m 55s.xml">
-      <configuration name="ChromeDriverTestTest.Selectable" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 58m 08s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_droppableTest - 2018.01.10 at 16h 52m 48s.xml">
-      <configuration name="ChromeDriverTestTest.droppableTest" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 09h 59m 35s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeDriverTestTest_sizeable1 - 2018.01.10 at 16h 53m 27s.xml">
-      <configuration name="ChromeDriverTestTest.sizeable1" configurationId="JUnit" />
+    <history-entry file="ChromeDriverTestTest_sortable - 2018.01.11 at 10h 00m 08s.xml">
+      <configuration name="ChromeDriverTestTest.sortable" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32646593" sideWeight="0.43118593" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32637855" sideWeight="0.43118593" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32646593" sideWeight="0.56881404" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.62737924" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3099851" sideWeight="0.62737924" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -571,10 +568,13 @@
     <MESSAGE value="update fire fox" />
     <MESSAGE value="update fire fox2" />
     <MESSAGE value="elliots code working" />
-    <option name="LAST_COMMIT_MESSAGE" value="elliots code working" />
+    <MESSAGE value="selection done" />
+    <option name="LAST_COMMIT_MESSAGE" value="selection done" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -705,35 +705,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testing.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/runtests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testing.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriveTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -746,16 +719,6 @@
         <state relative-caret-position="327">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,6 +738,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FireFoxDriverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -783,12 +766,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeDriverTestTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/runtests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
           </folding>
         </state>
       </provider>

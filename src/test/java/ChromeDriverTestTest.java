@@ -43,8 +43,6 @@ public class ChromeDriverTestTest {
         builder.dragAndDropBy(draganddrop, 150, 0).perform();
         Thread.sleep(4000);
         driver.quit();
-
-
     }
 
 
@@ -59,23 +57,42 @@ public class ChromeDriverTestTest {
         builder.dragAndDropBy(changeSize, 200, 300).perform();
         Thread.sleep(2000);
         driver.quit();
-
-
     }
+
     @Test
-    public void Selectable() throws InterruptedException {
+    public void selectable() throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
         driver.get("http://demoqa.com/");
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#menu-item-142 > a")).click();
-        WebElement select = driver.findElement(By.cssSelector("#selectable >li:nth-child(2)"));
+        WebElement select = driver.findElement(By.cssSelector("#selectable >li:nth-child(1)"));
         builder.dragAndDropBy(select,0,400).perform();
         Thread.sleep(4000);
         driver.quit();
     }
 
+    @Test
+    public void sortable() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
+        driver.get("http://demoqa.com/");
+        Thread.sleep(2000);
+        driver.findElement(By.cssSelector("#menu-item-151 > a")).click();
+        WebElement sortMove = driver.findElement(By.cssSelector("#sortable > li:nth-child(7)"));
+        builder.dragAndDropBy(sortMove,0,-200).perform();
+        for (int i = 0; i<6;i++) {
+            Thread.sleep(500);
+            builder.dragAndDropBy(driver.findElement(By.cssSelector("#sortable > li:nth-child(7)")),0,-200).perform();
+        }
+
+        Thread.sleep(3000);
+        driver.quit();
+
+    }
 }
+
+
+
 
 
     //PREVIOUS STUFF
