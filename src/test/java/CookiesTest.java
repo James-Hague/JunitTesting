@@ -41,7 +41,7 @@ public class CookiesTest {
 
         // LOGIN
         driver.findElement(By.cssSelector("#nav-link-yourAccount")).click();
-        driver.findElement(By.id("ap_email")).sendKeys("jameshague3dartist@gmail.com");
+        driver.findElement(By.id("ap_email")).sendKeys("myemail");
         driver.findElement(By.id("ap_password")).sendKeys(System.getenv("AMAZON_PASSWORD"));
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#signInSubmit")).click();

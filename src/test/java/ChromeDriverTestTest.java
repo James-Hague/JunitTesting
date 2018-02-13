@@ -1,5 +1,8 @@
 
 import jdk.nashorn.internal.ir.Block;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,13 +16,24 @@ import static org.junit.Assert.assertEquals;
 
 
 public class ChromeDriverTestTest {
-    WebDriver driver = new ChromeDriver();
+
+
+    static WebDriver driver;
     Actions builder = new Actions(driver);
+
+    @BeforeClass
+    public static void beforeTest()throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Desktop/QATESTING/chromedriver_win32/chromedriver.exe");
+        driver = new ChromeDriver();
+    }
+
+
+
 
     @Test
     public void testGoogleSearch() throws InterruptedException {
         // Optional, if not specified, WebDriver will search your path for chromedriver.
-        System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
+
         driver.get("http://demoqa.com/");
         //String targetURL = driver.getCurrentUrl();
         // MOUSE CLICKS
@@ -28,27 +42,27 @@ public class ChromeDriverTestTest {
         Thread.sleep(2000);
         builder.dragAndDropBy(dragStuff, 200, 0).perform();
         Thread.sleep(4000);
-        driver.quit();
+
     }
 
 
     @Test
     public void droppableTest() throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
+
         driver.get("http://demoqa.com/");
         driver.findElement(By.cssSelector("#menu-item-141 > a")).click();
         WebElement draganddrop = driver.findElement(By.cssSelector("#draggableview"));
         Thread.sleep(2000);
         builder.dragAndDropBy(draganddrop, 150, 0).perform();
         Thread.sleep(4000);
-        driver.quit();
+
     }
 
 
     @Test
     public void sizeable1() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
+
         driver.get("http://demoqa.com/");
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#menu-item-143 > a")).click();
@@ -56,37 +70,41 @@ public class ChromeDriverTestTest {
         WebElement changeSize = driver.findElement(By.cssSelector("#resizable > div.ui-resizable-handle.ui-resizable-se.ui-icon.ui-icon-gripsmall-diagonal-se"));
         builder.dragAndDropBy(changeSize, 200, 300).perform();
         Thread.sleep(2000);
-        driver.quit();
+
     }
 
     @Test
     public void selectable() throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
+
         driver.get("http://demoqa.com/");
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#menu-item-142 > a")).click();
         WebElement select = driver.findElement(By.cssSelector("#selectable >li:nth-child(1)"));
         builder.dragAndDropBy(select,0,400).perform();
         Thread.sleep(4000);
-        driver.quit();
+
     }
 
     @Test
     public void sortable() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:/Users/James/Desktop/QA_Software/chromedriver_win32/chromedriver.exe");
+
         driver.get("http://demoqa.com/");
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#menu-item-151 > a")).click();
         WebElement sortMove = driver.findElement(By.cssSelector("#sortable > li:nth-child(7)"));
-        builder.dragAndDropBy(sortMove,0,-200).perform();
-        for (int i = 0; i<6;i++) {
+        builder.dragAndDropBy(sortMove, 0, -200).perform();
+        for (int i = 0; i < 6; i++) {
             Thread.sleep(500);
-            builder.dragAndDropBy(driver.findElement(By.cssSelector("#sortable > li:nth-child(7)")),0,-200).perform();
+            builder.dragAndDropBy(driver.findElement(By.cssSelector("#sortable > li:nth-child(7)")), 0, -200).perform();
         }
+    }
 
-        Thread.sleep(3000);
-        driver.quit();
+       @AfterClass
+       public static void closeApp() throws InterruptedException {
+
+           driver.quit();
+
 
     }
 }
