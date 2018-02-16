@@ -1,7 +1,4 @@
-
-import jdk.nashorn.internal.ir.Block;
 import org.junit.AfterClass;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -9,10 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-
-import java.sql.Driver;
-
-import static org.junit.Assert.assertEquals;
 
 
 public class ChromeDriverTestTest {
@@ -22,13 +15,18 @@ public class ChromeDriverTestTest {
     Actions builder = new Actions(driver);
 
     @BeforeClass
-    public static void beforeTest()throws InterruptedException {
+    public static void beforeTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Desktop/QATESTING/chromedriver_win32/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
+    @AfterClass
+    public static void closeApp() throws InterruptedException {
+
+        driver.quit();
 
 
+    }
 
     @Test
     public void testGoogleSearch() throws InterruptedException {
@@ -45,7 +43,6 @@ public class ChromeDriverTestTest {
 
     }
 
-
     @Test
     public void droppableTest() throws InterruptedException {
 
@@ -58,7 +55,6 @@ public class ChromeDriverTestTest {
         Thread.sleep(4000);
 
     }
-
 
     @Test
     public void sizeable1() throws InterruptedException {
@@ -81,7 +77,7 @@ public class ChromeDriverTestTest {
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#menu-item-142 > a")).click();
         WebElement select = driver.findElement(By.cssSelector("#selectable >li:nth-child(1)"));
-        builder.dragAndDropBy(select,0,400).perform();
+        builder.dragAndDropBy(select, 0, 400).perform();
         Thread.sleep(4000);
 
     }
@@ -99,21 +95,10 @@ public class ChromeDriverTestTest {
             builder.dragAndDropBy(driver.findElement(By.cssSelector("#sortable > li:nth-child(7)")), 0, -200).perform();
         }
     }
-
-       @AfterClass
-       public static void closeApp() throws InterruptedException {
-
-           driver.quit();
-
-
-    }
 }
 
 
-
-
-
-    //PREVIOUS STUFF
+//PREVIOUS STUFF
 /*
             Thread.sleep(3000);  // Let the user actually see something!
             driver.get("http://thedemosite.co.uk/addauser.php");
